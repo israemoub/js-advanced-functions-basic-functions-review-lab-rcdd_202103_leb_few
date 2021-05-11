@@ -1,4 +1,5 @@
 // Your code here
+<<<<<<< HEAD
 function saturdayFun(act = "roller-skate"){
   return `This Saturday, I want to ${act}!`
 }
@@ -6,6 +7,16 @@ saturdayFun()
 saturdayFun(act="bathe my dog")
 function mondayWork(work="go to the office"){
   return `This Monday, I will ${work}.`;
+=======
+function saturdayFun(activity="roller-skate") {
+
+  return `This Saturday, I want to ${activity}!`;
+}
+saturdayFun();
+
+function mondayWork(string="go to the office") {
+  return `This Monday, I will ${string}.`;
+>>>>>>> ffe875a346f48a02ea76b04acbaf43a147b436fa
 }
 mondayWork()
 mondayWork(work="work from home")
@@ -17,6 +28,7 @@ function wrapAdjective(p2="*"){
 }
 wrapAdjective("||")("a dedicated programmer");
 
+<<<<<<< HEAD
 const Calculator = {
   add: function(a,b) {
     return a + b;
@@ -43,3 +55,14 @@ actionApplyer(13, arrayOfTransforms = [
           function(a){ return a + 1000},
           function(a){ return a % 7 }
         ])
+=======
+const Calculator = new Object();
+Calculator.add = function(a, b) {
+  return a + b;
+};
+Calculator.add(1 + 3);
+}
+saturdayFun();
+saturdayFun('sleep');
+
+>>>>>>> ffe875a346f48a02ea76b04acbaf43a147b436fa
