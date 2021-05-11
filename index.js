@@ -55,14 +55,3 @@ actionApplyer(13, arrayOfTransforms = [
           function(a){ return a + 1000},
           function(a){ return a % 7 }
         ])
-
-const Calculator = new Object();
-Calculator.add = function(a, b) {
-  return a + b;
-};
-Calculator.add(1 + 3);
-}
-saturdayFun();
-saturdayFun('sleep');
-
-
